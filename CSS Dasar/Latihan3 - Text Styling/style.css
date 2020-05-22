@@ -1,0 +1,27 @@
+h1	{
+	/*value: namaWarna || hexadecimal (colorpicker.com)*/
+	/*color: lightseagreen;*/
+	color: #58DE1F;
+}
+
+p	{
+	/*value: left || right || center || justify*/
+	text-align: center;
+
+	/*value: none || underline || overline || line-through*/
+	/*umumnya properti untuk menghilangkan underline pada hyperlink*/
+	text-decoration: line-through;
+
+	/*value: none || lowercase || uppercase || capitalize (PascalCase)*/
+	text-transform: capitalize;
+
+	letter-spacing: 5px;
+
+	word-spacing: 10px;
+}
+
+a   {
+	font-family: arial;
+	font-size: 30px;
+	text-decoration: none;
+}
