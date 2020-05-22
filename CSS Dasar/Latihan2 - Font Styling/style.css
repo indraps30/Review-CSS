@@ -1,0 +1,22 @@
+h1	{
+	color: blue;
+
+	/*cari di komputer user font arial, kalo ga ada cari verdana, kalo ga ada cari sans-serif */
+	/*sans-serif: tanpa kaki*/
+	font-family: arial, verdana, sans-serif;
+	
+	font-size: 100px;
+
+	/*value: normal || bold*/
+	font-weight: normal;	
+
+	/*value: normal || italic*/	
+	font-style: italic;
+}
+
+p	{
+	font-family: georgia, serif;
+
+	/*value: ...px || normal*/
+	line-height: 50px;
+}
