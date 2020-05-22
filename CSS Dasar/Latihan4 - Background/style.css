@@ -1,0 +1,14 @@
+body	{
+	background-color: lightblue;
+	
+	/*background-color dulu baru ditimpa background-image*/
+	background-image: url(img/watercolor.png);
+
+	/*value: repeat-x, repeat-y, repeat (default), no-repeat*/
+	background-repeat: no-repeat;
+
+	/*bisa digunakan jika nilai background-repeat: no-repeat*/
+	/*sumbu Y: top || center || bottom*/
+	/*sumby X: left || center || right*/
+	background-position: top right;
+}
