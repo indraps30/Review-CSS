@@ -1,0 +1,78 @@
+pseudo-class: kelas semu utk mendefinisikan elemen HTML pada keadaan tertentu*/
+/*cara menjalankan pseudo-class menggunakan :*/
+
+/*1*/
+/*pseudo-class untuk link*/
+/*:link -> berlaku untuk link HTML (default)*/
+.hello:link {
+	color: orange;
+}
+
+/*:hover -> ketika kursor berada di atas link*/
+.hello:hover {
+	color: green;
+	font-family: arial;
+	font-size: 20px;
+}
+
+/*:active -> ketika link ditekan*/
+.hello:active {
+	font-style: italic;
+}
+
+/*:visited -> ketika link telah ditekan*/
+.hello:visited {
+	color: red;
+}
+
+
+/*2*/
+/*pseudo-class untuk posisi elemen jika elemen yang akan di-style merupakan anak dari elemen HTML lain*/
+/*:first-child*/
+/*elemen a yang ada di dalam li yang merupakan anak pertama*/
+li:first-child a {
+	color: green;
+}
+
+/*:last-child*/
+li:last-child a {
+	color: blue;
+}
+
+/*:nth-child(n)*/
+/*parameter bisa angka langsung (3, 5, 6, dll)*/
+li:nth-child(5) a { 
+	color: yellow;
+}
+
+/*parameter bisa kelipatan (2n/3n)*/
+li:nth-child(2n) a {
+	color: lightblue;
+}
+
+/*parameter bisa merupakan posisi dengan syarat tertentu (3n-2/3n+1)*/
+li:nth-child(3n-2) a {
+	color: lightgreen;
+}
+
+/*parameter bisa even (genap) atau odd (ganjil)*/
+li:nth-child(odd) a {
+	color: black;
+}
+
+li:nth-child(odd) a:hover {
+	color: orange;
+}
+
+
+/*3*/
+/*pseudo-class untuk posisi elemen jika elemen yang akan di-style bukan merupakan anak dari elemen HTML lain*/
+/*:first-of-type*/
+p:first-of-type {
+	color: red;
+}
+
+/*:last-of-type*/
+p:last-of-type {
+	color: pink;
+}
