@@ -17,14 +17,3 @@
 	<li><strong>Flexbox:</strong> (TBD)</li>
 	<li><strong>CSS Grid:</strong> (TBD)</li>
  </ol>
- 
- 1. CSS Dasar: <br>
- 	1.a. Penempatan CSS (Inline, Internal, dan External CSS) <br>
-	1.b. Font dan Text Styling <br>
-	1.c. Background <br>
-	1.d. Selector, Pseudo-Class, dan Specificity <br>
-	
- 2. CSS Layouting: (soon) <br>
- 3. CSS3: (TBD) <br>
- 4. Flexbox: (TBD) <br>
- 5. CSS Grid: (TBD) <br>
